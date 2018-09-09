@@ -1,7 +1,7 @@
 # Turtles
 
 
-This project lets you to search all the GIFs on Giphy.
+Search all the GIFs on Giphy — the best way to search, share, and discover GIFs on the Internet!
 
 
 • Universal app, works on iPhone and iPad
@@ -13,5 +13,6 @@ This project lets you to search all the GIFs on Giphy.
 
 #### Third-party libraries
 
-• AFNetworking/Alamofire — HTTP networking library — which provides first-class networking capabilities.
+• AFNetworking/Alamofire — HTTP networking library — which provides first-class networking capabilities
+
 • Giphy Core SDK for Swift
