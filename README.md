@@ -13,4 +13,5 @@ This project lets you to search all the GIFs on Giphy.
 
 #### Third-party libraries
 
-• This project includes AFNetworking/Alamofire — HTTP networking library — which provides first-class networking capabilities.
+• AFNetworking/Alamofire — HTTP networking library — which provides first-class networking capabilities.
+• Giphy Core SDK for Swift
