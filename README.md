@@ -1,7 +1,7 @@
 # Turtles
 
 
-This project lets you to search All the GIFs on Giphy.
+This project lets you to search all the GIFs on Giphy.
 
 
 • Universal app, works on iPhone and iPad
