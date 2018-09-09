@@ -1,7 +1,7 @@
 # Turtles
 
 
-Search all the GIFs on Giphy — the best way to search, share, and discover GIFs on the Internet!
+#### Search all the GIFs on Giphy — the best way to search, share, and discover GIFs on the Internet!
 
 
 • Universal app, works on iPhone and iPad
