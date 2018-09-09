@@ -13,6 +13,8 @@ Search all the GIFs on Giphy — the best way to search, share, and discover GIF
 
 #### Third-party libraries
 
-• AFNetworking/Alamofire — HTTP networking library — which provides first-class networking capabilities
+• Alamofire — Elegant HTTP Networking
 
-• Giphy Core SDK for Swift
+• AlamofireImage — image component library for Alamofire
+
+• Giphy Core SDK
