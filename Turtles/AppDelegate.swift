@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Turtles
 //
-//  Created by Blaine Solomon on 9/6/18.
+//  Created by Blaine Solomon on 9/9/18.
 //  Copyright © 2018 Solomon. All rights reserved.
 //
 
@@ -10,9 +10,6 @@ import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-    var window: UIWindow?
-
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
@@ -41,6 +38,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
-
+    var window: UIWindow?
 }
 

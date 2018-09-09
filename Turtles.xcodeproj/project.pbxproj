@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		651BD6D0214236A400B8E6D4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651BD6CF214236A400B8E6D4 /* Extensions.swift */; };
+		6563711E2141F4F800CD9878 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6563711C2141F4F800CD9878 /* Alamofire.framework */; };
+		6563711F2141F4F800CD9878 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6563711D2141F4F800CD9878 /* AlamofireImage.framework */; };
+		65C4460B21447F2200816796 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C4460A21447F2200816796 /* DetailVC.swift */; };
+		65CF546E2145B84500725652 /* ImageItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CF546D2145B84500725652 /* ImageItem.swift */; };
 		65DFCF4E2141C72D00453B7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DFCF4D2141C72D00453B7E /* AppDelegate.swift */; };
-		65DFCF502141C72D00453B7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DFCF4F2141C72D00453B7E /* ViewController.swift */; };
+		65DFCF502141C72D00453B7E /* MasterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DFCF4F2141C72D00453B7E /* MasterVC.swift */; };
 		65DFCF532141C72D00453B7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65DFCF512141C72D00453B7E /* Main.storyboard */; };
 		65DFCF552141C72E00453B7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65DFCF542141C72E00453B7E /* Assets.xcassets */; };
-		65DFCF582141C72E00453B7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65DFCF562141C72E00453B7E /* LaunchScreen.storyboard */; };
+		65DFCF612141CC4400453B7E /* GiphyCoreSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65DFCF602141CC4400453B7E /* GiphyCoreSDK.framework */; };
+		65DFCF632141CD4100453B7E /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DFCF622141CD4100453B7E /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		651BD6CF214236A400B8E6D4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		6563711C2141F4F800CD9878 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		6563711D2141F4F800CD9878 /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = Carthage/Build/iOS/AlamofireImage.framework; sourceTree = "<group>"; };
+		65C4460A21447F2200816796 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		65CF546D2145B84500725652 /* ImageItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageItem.swift; sourceTree = "<group>"; };
 		65DFCF4A2141C72D00453B7E /* Turtles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Turtles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65DFCF4D2141C72D00453B7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		65DFCF4F2141C72D00453B7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65DFCF4F2141C72D00453B7E /* MasterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterVC.swift; sourceTree = "<group>"; };
 		65DFCF522141C72D00453B7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		65DFCF542141C72E00453B7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		65DFCF572141C72E00453B7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65DFCF592141C72E00453B7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65DFCF602141CC4400453B7E /* GiphyCoreSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GiphyCoreSDK.framework; path = Carthage/Build/iOS/GiphyCoreSDK.framework; sourceTree = "<group>"; };
+		65DFCF622141CD4100453B7E /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +41,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65DFCF612141CC4400453B7E /* GiphyCoreSDK.framework in Frameworks */,
+				6563711E2141F4F800CD9878 /* Alamofire.framework in Frameworks */,
+				6563711F2141F4F800CD9878 /* AlamofireImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +55,7 @@
 			children = (
 				65DFCF4C2141C72D00453B7E /* Turtles */,
 				65DFCF4B2141C72D00453B7E /* Products */,
+				65DFCF5F2141CC4400453B7E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +70,27 @@
 		65DFCF4C2141C72D00453B7E /* Turtles */ = {
 			isa = PBXGroup;
 			children = (
-				65DFCF4D2141C72D00453B7E /* AppDelegate.swift */,
-				65DFCF4F2141C72D00453B7E /* ViewController.swift */,
 				65DFCF512141C72D00453B7E /* Main.storyboard */,
+				65DFCF4D2141C72D00453B7E /* AppDelegate.swift */,
+				65DFCF4F2141C72D00453B7E /* MasterVC.swift */,
+				65C4460A21447F2200816796 /* DetailVC.swift */,
+				65CF546D2145B84500725652 /* ImageItem.swift */,
+				651BD6CF214236A400B8E6D4 /* Extensions.swift */,
+				65DFCF622141CD4100453B7E /* CollectionViewCell.swift */,
 				65DFCF542141C72E00453B7E /* Assets.xcassets */,
-				65DFCF562141C72E00453B7E /* LaunchScreen.storyboard */,
 				65DFCF592141C72E00453B7E /* Info.plist */,
 			);
 			path = Turtles;
+			sourceTree = "<group>";
+		};
+		65DFCF5F2141CC4400453B7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6563711C2141F4F800CD9878 /* Alamofire.framework */,
+				6563711D2141F4F800CD9878 /* AlamofireImage.framework */,
+				65DFCF602141CC4400453B7E /* GiphyCoreSDK.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +103,7 @@
 				65DFCF462141C72D00453B7E /* Sources */,
 				65DFCF472141C72D00453B7E /* Frameworks */,
 				65DFCF482141C72D00453B7E /* Resources */,
+				65709B3B2141DA1300659ECD /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -122,7 +152,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65DFCF582141C72E00453B7E /* LaunchScreen.storyboard in Resources */,
 				65DFCF552141C72E00453B7E /* Assets.xcassets in Resources */,
 				65DFCF532141C72D00453B7E /* Main.storyboard in Resources */,
 			);
@@ -130,13 +159,36 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		65709B3B2141DA1300659ECD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/GiphyCoreSDK.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/AlamofireImage.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		65DFCF462141C72D00453B7E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65DFCF502141C72D00453B7E /* ViewController.swift in Sources */,
+				65CF546E2145B84500725652 /* ImageItem.swift in Sources */,
+				65C4460B21447F2200816796 /* DetailVC.swift in Sources */,
+				65DFCF502141C72D00453B7E /* MasterVC.swift in Sources */,
+				651BD6D0214236A400B8E6D4 /* Extensions.swift in Sources */,
 				65DFCF4E2141C72D00453B7E /* AppDelegate.swift in Sources */,
+				65DFCF632141CD4100453B7E /* CollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,14 +201,6 @@
 				65DFCF522141C72D00453B7E /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		65DFCF562141C72E00453B7E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				65DFCF572141C72E00453B7E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -282,6 +326,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2DTPJ248VT;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Turtles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +348,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2DTPJ248VT;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Turtles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

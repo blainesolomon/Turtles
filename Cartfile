@@ -1,0 +1,3 @@
+github "Giphy/giphy-ios-sdk-core"
+github "Alamofire/Alamofire"
+github "Alamofire/AlamofireImage"
