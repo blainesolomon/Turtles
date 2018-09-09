@@ -17,6 +17,6 @@
 
 • Alamofire — Elegant HTTP Networking
 
-• AlamofireImage — image component library for Alamofire
+• AlamofireImage — Image component library for Alamofire
 
 • Giphy Core SDK
